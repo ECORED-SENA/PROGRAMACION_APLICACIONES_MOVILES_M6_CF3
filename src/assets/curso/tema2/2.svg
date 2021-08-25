@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="991" height="460" viewBox="0 0 991 460">
+  <g id="Grupo_99906" data-name="Grupo 99906" transform="translate(-329 -872)">
+    <rect id="Rectángulo_33880" data-name="Rectángulo 33880" width="254" height="67" transform="translate(673 872)" fill="#ffca28"/>
+    <text id="Activity" transform="translate(769 911)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Activity</tspan></text>
+    <path id="Trazado_106995" data-name="Trazado 106995" d="M-6933-10745.391v42.164" transform="translate(7733.5 11684.391)" fill="none" stroke="#343434" stroke-width="2"/>
+    <path id="Polígono_4" data-name="Polígono 4" d="M8,0l8,14H0Z" transform="translate(808 988) rotate(180)" fill="#12263f"/>
+    <rect id="Rectángulo_33881" data-name="Rectángulo 33881" width="254" height="67" transform="translate(801 1002)" fill="#a9ebf4"/>
+    <text id="ViewGroup" transform="translate(884 1041)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ViewGroup</tspan></text>
+    <path id="Trazado_106996" data-name="Trazado 106996" d="M-7054-10432.474v-161.94h520.127v27.068" transform="translate(7727 11693)" fill="none" stroke="#000" stroke-width="2"/>
+    <path id="Trazado_106997" data-name="Trazado 106997" d="M-6798.5-10631v66.67" transform="translate(7727 11700)" fill="none" stroke="#21214b" stroke-width="2"/>
+    <rect id="Rectángulo_33882" data-name="Rectángulo 33882" width="254" height="67" transform="translate(535 1126)" fill="#a9ebf4"/>
+    <text id="ViewGroup-2" data-name="ViewGroup" transform="translate(618 1165)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">ViewGroup</tspan></text>
+    <rect id="Rectángulo_33883" data-name="Rectángulo 33883" width="254" height="67" transform="translate(800 1126)" fill="#dee4f0"/>
+    <text id="View" transform="translate(907 1165)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">View</tspan></text>
+    <rect id="Rectángulo_33884" data-name="Rectángulo 33884" width="254" height="67" transform="translate(1066 1126)" fill="#dee4f0"/>
+    <path id="Trazado_106998" data-name="Trazado 106998" d="M-7304.615-10435.354v-30.33h503.576v30.33" transform="translate(7727 11700)" fill="none" stroke="#21214b" stroke-width="2"/>
+    <rect id="Rectángulo_33885" data-name="Rectángulo 33885" width="186" height="67" transform="translate(329 1265)" fill="#dee4f0"/>
+    <text id="View-2" data-name="View" transform="translate(402 1304)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">View</tspan></text>
+    <rect id="Rectángulo_33886" data-name="Rectángulo 33886" width="186" height="67" transform="translate(581 1265)" fill="#dee4f0"/>
+    <text id="View-3" data-name="View" transform="translate(654 1304)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">View</tspan></text>
+    <rect id="Rectángulo_33887" data-name="Rectángulo 33887" width="186" height="67" transform="translate(833 1265)" fill="#dee4f0"/>
+    <text id="View-4" data-name="View" transform="translate(906 1304)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">View</tspan></text>
+  </g>
+</svg>
