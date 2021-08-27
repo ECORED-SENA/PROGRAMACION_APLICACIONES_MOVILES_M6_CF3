@@ -266,12 +266,6 @@
           p.mt-3(data-aos="fade-up") #[strong android: layout_width= “50dp”]
           p(data-aos="fade-up") #[strong android: layout_height=”200dp”]
 
-          p.mt-3(data-aos="fade-up") Android: id: Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente
-
-          p.mt-3(data-aos="fade-up") #[strong Android:id="@+id/myText"]
-
-          p.mt-4(data-aos="fade-up") El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
-
     p.mt-5(data-aos="fade-up") Estas tres propiedades básicas son las principales en los componentes que se describen a continuación.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 14] Controles Básicos

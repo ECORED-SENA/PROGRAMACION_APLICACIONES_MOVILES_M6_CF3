@@ -65,7 +65,7 @@
                 img(src="@/assets/curso/tema7/3.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 42] Declaración variable Media Player
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p 3. En la clase Java escribe el siguiente código.
+                p En la clase Java escribe el siguiente código.
 
           b-tab
             template(#title)
