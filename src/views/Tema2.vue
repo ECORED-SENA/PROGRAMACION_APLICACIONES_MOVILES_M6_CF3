@@ -245,7 +245,7 @@
       .col-md-4.mb-3
         .p-5.caja_flotante.caja_escalada_hover(style="background-color:#FFCA28;height:100%;")
           h4(data-aos="fade-up") Android: id
-          p.mt-4.mb-0(data-aos="fade-up") Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente
+          p.mt-4.mb-0(data-aos="fade-up") Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente:
           p(data-aos="fade-up") #[strong Android:id=“@+id/myText”] #[br] El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
 
     p.mt-5(data-aos="fade-up") #[strong Los valores que pueden tomar las propiedades de Android: layout_width, y Android: layout_height los cuales aplican para todos los controles son:]
