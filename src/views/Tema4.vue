@@ -17,7 +17,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema4/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") #[strong intent explícito:] se utilizan para llamar a un componente específico: Por ejemplo, se tiene una aplicación que contiene 2 actividades. Actividad A y Actividad B y la aplicación requiere navegar desde la Actividad A hasta la Actividad B. En este caso, se define una intención explícita. #[br] Para ello se utiliza la clase Intent donde se le especifica donde está y a dónde quiere ir.
+            p(data-aos="fade-up") #[strong Intent explícito:] se utilizan para llamar a un componente específico: Por ejemplo, se tiene una aplicación que contiene 2 actividades. Actividad A y Actividad B y la aplicación requiere navegar desde la Actividad A hasta la Actividad B. En este caso, se define una intención explícita. #[br] Para ello se utiliza la clase Intent donde se le especifica donde está y a dónde quiere ir.
 
             p.mt-3.mb-0(data-aos="fade-up") #[strong Intent intent = new Intent (ActividaA.this, ActivityB.class);]
             p(data-aos="fade-up") #[strong startActivity(intent);]
@@ -50,7 +50,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Android Studio Intent Abrir una Activity
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
               p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre Intent Explícito, para esto te invitamos a visitar la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=LEVXzsXhO0A" target="_blank")

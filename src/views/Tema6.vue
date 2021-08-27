@@ -82,7 +82,7 @@
     br
     br
     .titulo-segundo.mt-5
-      h2#t_6_2 6.2 Bases de datos en tiempo Real
+      h2#t_6_2 6.2 Bases de datos en tiempo real
 
     p(data-aos="fade-up") Una base de datos en tiempo real se refiere a un sistema de base de datos que se basa en el procesamiento en tiempo real que toma los datos entrantes a medida que fluyen del servidor.
 
@@ -193,7 +193,7 @@
                 |  1. Crear un Proyecto en la consola de Firebase.
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/7.svg")
+                img(src="@/assets/curso/tema6/p1.png")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 34] Creación de proyecto en Firebase
 
           b-tab
@@ -203,7 +203,7 @@
                 |  2. Agregar el proyecto.
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/8.svg" style="max-width:300px;")
+                img(src="@/assets/curso/tema6/p2.png" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 35] Agregar un proyecto en Firebase
 
           b-tab
@@ -213,7 +213,7 @@
                 |  3. Seleccionar la plataforma para agregar a la APP. 
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/9.svg" style="max-width:300px;")
+                img(src="@/assets/curso/tema6/p3.png" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 36] Agregar Firebase a la aplicación
               
 
@@ -224,7 +224,7 @@
                 |  4. Ingresar el nombre del paquete de la APP en #[br] el campo Nombre del paquete
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/10.svg" style="max-width:300px;")
+                img(src="@/assets/curso/tema6/p4.png" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 37] Registra APP
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Lo más importante es copiar el paquete de tu proyecto de Android Studio que se encuentra en el manifest com.dominio.proyecto
@@ -236,7 +236,7 @@
                 |  5. Descargar archivo Json google-services.json  #[br] y copiarlo en la raíz del proyecto de Android Studio #[br] como lo indica la figura.
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/11.svg")
+                img(src="@/assets/curso/tema6/p5.png")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 38] Descarga Archivo Json
 
           b-tab
@@ -246,15 +246,15 @@
                 |  6. Agregar SDK de Firebase
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/12.svg")
+                img(src="@/assets/curso/tema6/p6.png")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 39] Descarga SDK Firebase
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Copiar las librerías al gradle del proyecto en Android Studio y ya que esté lista la configuración de Android Studio con Firebase.
 
                 p.mt-3 Esta misma configuración también se puede hacer automáticamente desde el entorno de Android Studio en la opción Tools-Firebase, pero necesita una buena velocidad de internet.
 
-              figure.mt-3
-                img(src="@/assets/curso/tema6/13.svg")
+              figure.mt-4
+                img(src="@/assets/curso/tema6/13.svg" style="max-width:300px")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 40] Configuración automática para conexión con Firebase desde Android Studio
 
     br

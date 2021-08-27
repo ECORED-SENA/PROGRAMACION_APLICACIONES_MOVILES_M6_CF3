@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 Estructura de un proyecto en android studio
+      h1 Estructura de un proyecto en Android Studio
 
     p(data-aos="fade-up") #[strong Las actualizaciones en Android Studio avanzan muy rápido, para este componente los ejemplos que se muestran son para la versión 4.1.3]
 

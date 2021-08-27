@@ -43,6 +43,8 @@
               figure
                 img(src="@/assets/curso/tema7/2.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 41] Creación directorio raw
+              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
+                p Crear un directorio dentro de la carpeta res llamada raw
 
           b-tab
             template(#title)
@@ -50,6 +52,8 @@
                 i.fas.fa-caret-right
                 |  2. Copiar un sonido en la carpeta raw de #[br] extensión mp3.
             b-card-text
+              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
+                p Copiar un sonido en la carpeta raw de extensión mp3.
 
           b-tab
             template(#title)
@@ -67,31 +71,33 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  4. Se crea la instancia del Sonido.
+                |  4. Se crea la instancia del sonido.
             b-card-text
               figure
                 img(src="@/assets/curso/tema7/4.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 43] Instancia Media Player
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Se crea la instancia del Sonido.
+                p Se crea la instancia del sonido.
 
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  5. Ejecución del Sonido.
+                |  5. Ejecución del sonido.
             b-card-text
               figure
                 img(src="@/assets/curso/tema7/5.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 44] Ejecutar el Sonido
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Ejecución del Sonido.
+                p Ejecución del sonido.
 
     p.mt-5(data-aos="fade-up") En la figura 42, se declara una variable de tipo MediaPlayer.
 
     p.mt-2(data-aos="fade-up") En la figura 43, se crea la instancia del sonido y almacena el sonido ubicado en la carpeta raw
 
-    p.mt-2(data-aos="fade-up") En la figura 44, se ejecuta el sonido con el método #[em start]. 
+    p.mt-2(data-aos="fade-up") En la figura 44, se ejecuta el sonido con el método #[em start].
+
+    p.mt-5(data-aos="fade-up") De esta manera al correr la aplicación ya ejecutará el sonido.
 
 
     br
@@ -112,7 +118,7 @@
     figure.mt-4.col-md-6.m-auto
       img.image_floating(src="@/assets/curso/tema7/6.svg" data-aos="fade-up")
 
-    p.mt-5(data-aos="fade-up") #[strong 3.] En la clase Java se realiza todo el código descrito paso a paso en la figura 62.
+    p.mt-5(data-aos="fade-up") #[strong 3.] En la clase Java se realiza todo el código descrito paso a paso en la figura.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 46] Código Java VideoView
 
