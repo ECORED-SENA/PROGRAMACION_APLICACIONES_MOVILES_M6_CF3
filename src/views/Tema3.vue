@@ -16,7 +16,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema3/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") Los Event Listeners (objetos de escucha de eventos) son interfaces de la clase view que contienen un método de llamado el cual será invocados cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto quiere decir que los view como Button, ImageView, RadioButton, Checkbox, al interactuar con el usuario el objeto escuchará y llamará al método correspondiente a estos view el cual ejecutará una acción determinada.
+            p(data-aos="fade-up") Los Event Listeners (objetos de escucha de eventos) son interfaces de la clase view que contienen un método de llamado el cual será invocados cuando la vista registre una interacción del usuario con el elemento de la interfaz gráfica. Esto quiere decir que los #[em view] como #[em Button], ImageView, RadioButton, Checkbox, al interactuar con el usuario el objeto escuchará y llamará al método correspondiente a estos view el cual ejecutará una acción determinada.
 
     p.mt-5.mb-0(data-aos="fade-up") La ejecución de los eventos se realiza en el código Java ubicado en la carpeta /java
     p(data-aos="fade-up") Para fijar un listener se debe implementar y agregar los métodos del evento correspondiente a cada view mediante el método setOn.
@@ -37,15 +37,15 @@
                 |  1. Crear el Button en el Layout con su propiedad ID #[br] ya que es la que nos va a permitir referenciarlos #[br] desde el código Java.
             b-card-text
               figure
-                img(src="@/assets/curso/tema3/2.svg")
+                img(src="@/assets/curso/tema3/5.png")
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Se muestra la creación de un botón en el layout llamado activity_main.xml, el código XML tiene creado un contenedor de tipo LinearLayout con su propiedad vertical y el Button es creado con sus propiedades básicas, la propiedad que se necesita para referenciar es la del id el nombre del identificador que se colocó para el ejemplo fue btnclic, y en la vista de diseño se puede ver cómo queda el button. 
+                p Se muestra la creación de un botón en el layout llamado activity_main.xml, el código XML tiene creado un contenedor de tipo LinearLayout con su propiedad vertical y el Button es creado con sus propiedades básicas, la propiedad que se necesita para referenciar es la del id el nombre del identificador que se colocó para el ejemplo fue btnclic, y en la vista de diseño se puede ver cómo queda el #[em button]. 
 
                 p.mt-3 #[strong Estas son las diferentes vistas en las que se puede trabajar en el layout.]
 
-                p.mt-3.mb-0 Code:  permite visualizar solo el código XML
-                p.mb-0 Split: permite visualizar el código y el diseño como se ve en la figura 1
-                p Desing: permite visualizar solo el editor de diseño.
+                p.mt-3.mb-0 #[em #[strong Code]]:  permite visualizar solo el código XML
+                p.mb-0 #[strong Split:] permite visualizar el código y el diseño como se ve en la figura
+                p #[strong Desing:] permite visualizar solo el editor de diseño.
 
           b-tab
             template(#title)
@@ -54,11 +54,11 @@
                 |  2. En la clase Java declarar el tipo de view y #[br] referenciarlo.
             b-card-text
               figure
-                img(src="@/assets/curso/tema3/3.svg")
+                img(src="@/assets/curso/tema3/6.png")
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p La clase en Java está compuesta por un método principal que se llama Oncreate, todo el código que esté dentro de este método se ejecuta inmediatamente se corra la aplicación.
 
-                p.mt-3 Cada clase tiene relacionado su layout en el método setContentView por lo tanto se debe referenciar los view en cada clase que lo contenga en el ejemplo la clase Java MainActivity contiene al layout activity_main que fue donde se creó el Button.
+                p.mt-3 Cada clase tiene relacionado su layout en el método setContentView por lo tanto se debe referenciar los #[em view] en cada clase que lo contenga, en el ejemplo la clase Java MainActivity contiene al layout activity_main que fue donde se creó el Button.
 
           b-tab
             template(#title)
@@ -67,9 +67,9 @@
                 |  3. Implementar el evento listener:
             b-card-text
               figure
-                img(src="@/assets/curso/tema3/4.svg")
+                img(src="@/assets/curso/tema3/7.png")
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p En la figura 3 se ve la implementación del evento setOnClickListener para que cuando el usuario de clic en el botón se ejecute una instrucción, el código debe escribirse en el método onClick.
+                p En la figura se ve la implementación del evento setOnClickListener para que cuando el usuario de clic en el botón se ejecute una instrucción, el código debe escribirse en el método onClick.
 
                 p.mt-3 Los View tiene diferentes métodos escuchadores, en la tabla que se encuentra a continuación se pueden observar los más utilizados:
 
@@ -105,7 +105,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Interacción con Botones, TextView, ImageView
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
               p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre view vista, para esto te invitamos a visitar la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=-z8zTGTo7vA" target="_blank")
@@ -273,11 +273,6 @@ export default {
   -ms-transition: transform .5s linear
   -moz-transition: transform .5s linear
   -webkit-transition: transform .5s linear
-.caja__1
-  background: url("../assets/curso/tema2/5.svg")
-  background-size: cover
-  background-position:center
-  filter: drop-shadow(0px 10px 6px rgba(0,0,0,.4))
 .tabla__1 th,.tabla__1 td
   padding: 1.1rem
 .anexo *

@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 2
-      h1  Interfaz de usuario en android
+      h1  Interfaz de usuario en Android
 
     p(data-aos="fade-up") La interfaz de usuario se define a través de la estructura de un diseño para la aplicación, en el caso de Android por ejemplo en una actividad.
 
@@ -16,7 +16,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema2/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") La creación de los elementos del diseño se hace utilizando una jerarquía de objetos View y ViewGroup donde los View son los elementos que el usuario puede visualizar como: botones, textos, imágenes; y un ViewGroup es un contenedor no visible que define la estructura del diseño de los view y otros objetos.
+            p(data-aos="fade-up") La creación de los elementos del diseño se hace utilizando una jerarquía de objetos #[em View] y #[em ViewGroup] donde los View son los elementos que el usuario puede visualizar como: botones, textos, imágenes; y un ViewGroup es un contenedor no visible que define la estructura del diseño de los #[em view] y otros objetos.
 
     br
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 11] Ilustración jerarquía de diseño
@@ -24,7 +24,7 @@
     figure.mt-5.col-md-10.m-auto
       img.image_floating(src="@/assets/curso/tema2/2.svg" data-aos="fade-up")
 
-    p.mt-5(data-aos="fade-up") Los objetos ViewGroup son llamados Layout (diseños) y son de muchos tipos, dependiendo de la distribución y la posición de sus views como, por ejemplo, LinearLayout, RelativeLayout entre otros.
+    p.mt-5(data-aos="fade-up") Los objetos #[em ViewGroup] son llamados Layout (diseños) y son de muchos tipos, dependiendo de la distribución y la posición de sus views como, por ejemplo, LinearLayout, RelativeLayout entre otros.
 
     p.mt-4(data-aos="fade-up") #[strong El diseño en Android se puede trabajar de dos maneras: en XML, o en el editor de diseño (mediante una interfaz de arrastrar y soltar)]
 
@@ -52,7 +52,7 @@
 
     p.mt-4(data-aos="fade-up") #[strong Existen diferentes tipos de Layout, a continuación, se explica cada una de las más comunes.]
 
-    .mt-5.text-center.caja__1.p-5.row(style="min-height:700px;max-height:100%;height:100%;place-content: flex-end;")
+    .mt-5.text-center.caja___1.p-5.row(style="min-height:700px;max-height:100%;height:100%;place-content: flex-end;")
       div(v-if="caja1" data-aos="fade-in")
         .p-4.col-md-12.m-auto(style="background-color:rgba(0,0,0,.7);z-index:1;position:relative;" data-aos="fade-in")
           h1.text-white Construir un aplicativo según las #[br] características de la arquitectura Android
@@ -66,7 +66,7 @@
             .p-5.bg-white.caja_flotante(style="border-radius:10px;text-align:left;")
               p(data-aos="fade-up") En Android Studio los componentes visuales (Button, Editext, Textview, etc.) se organizan mediante contenedores llamados Layout.
 
-              p.mt-4(data-aos="fade-up") Los layouts son elementos no visuales que permiten controlar la organización, posición y dimensiones de los view que se crean dentro de él, como muchos otros componentes contenedores, son capaces de contener a otros controles, es decir, que se puede tener un contenedor dentro de otro contenedor.
+              p.mt-4(data-aos="fade-up") Los layouts son elementos no visuales que permiten controlar la organización, posición y dimensiones de los #[em view] que se crean dentro de él, como muchos otros componentes contenedores, son capaces de contener a otros controles, es decir, que se puede tener un contenedor dentro de otro contenedor.
 
               p.mt-4(data-aos="fade-up") Existen diferentes tipos de Layout entre los más comunes están: el LinearLayout, TableLayout, ConstraintLayout.
 
@@ -84,21 +84,21 @@
         .row
           .col-md-4.mb-4
             figure.text-center
-              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/9.svg" style="display:inline;cursor:pointer;" data-aos="fade-up" @click="modal1 = true")
+              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/9.svg" style="display:inline;cursor:pointer;max-height:350px;" data-aos="fade-up" @click="modal1 = true")
 
             .p-4.bg-white.caja_flotante.caja_escalada_hover(style="border-radius:10px;cursor:pointer;" data-aos="fade-up" @click="modal1 = true")
                 h3.mb-0.text-center 1. LinearLayout
 
           .col-md-4.mb-4
             figure.text-center
-              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/10.svg" style="display:inline;cursor:pointer;" data-aos="fade-up" @click="modal2 = true")
+              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/10.svg" style="display:inline;cursor:pointer;max-height:350px;" data-aos="fade-up" @click="modal2 = true")
 
             .p-4.bg-white.caja_flotante.caja_escalada_hover(style="border-radius:10px;cursor:pointer;" data-aos="fade-up" @click="modal2 = true")
                 h3.mb-0.text-center 2. TableLayout
 
           .col-md-4.mb-4
             figure.text-center
-              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/11.svg" style="display:inline;cursor:pointer;" data-aos="fade-up" @click="modal3 = true")
+              img.image_floating.caja_escalada_hover(src="@/assets/curso/tema2/11.svg" style="display:inline;cursor:pointer;max-height:350px;" data-aos="fade-up" @click="modal3 = true")
 
             .p-4.bg-white.caja_flotante.caja_escalada_hover(style="border-radius:10px;cursor:pointer;" data-aos="fade-up" @click="modal3 = true")
                 h3.mb-0.text-center 3. ConstraintLayout
@@ -114,13 +114,13 @@
             p.mt-2 Dispone las vistas de la interfaz una debajo de otra (orientación vertical), o una al lado de la otra (orientación horizontal). Sus propiedades principales son:
 
             ul.mt-3(style="list-style:disc;padding:revert;")
-              li Orientation: es la propiedad que define la disposición de sus vistas si es horizontal o vertical.
-              li Layout_height: esta propiedad especifica el alto del viewGroup (Contenedor).
-              li Layout_width: esta propiedad especifica el ancho del viewGroup 
+              li #[em Orientation]: es la propiedad que define la disposición de sus vistas si es horizontal o vertical.
+              li Layout_height: esta propiedad específica el alto del #[em viewGroup] (Contenedor).
+              li Layout_width: esta propiedad específica el ancho del #[em viewGroup] 
 
             .row.mt-3
               .col-md-6.mb-4
-                p Los valores que puede tomar las propiedades height y width son: &lt;&lt;match_parent&gt;&gt; para que ocupe el mismo tamaño de la pantalla, o el valor &lt;&lt;wrap-content&gt;&gt; para que se adapte al tamaño de su contenido, también puede tener valores personalizados que se miden con dp (pixeles de densidad independiente), las propiedades de heigth y width se aplican para todos los contenedores y vistas.
+                p Los valores que puede tomar las propiedades #[em height] y #[em width] son: &lt;&lt;match_parent&gt;&gt; para que ocupe el mismo tamaño de la pantalla, o el valor &lt;&lt;wrap-content&gt;&gt; para que se adapte al tamaño de su contenido, también puede tener valores personalizados que se miden con dp (pixeles de densidad independiente), las propiedades de #[em heigth] y #[em width] se aplican para todos los contenedores y vistas.
 
               .col-md-6
                 figure
@@ -137,7 +137,7 @@
 
             .row.mt-3
               .col-md-9.mb-3
-                p Es un contenedor ViewGroup que permite mostrar los elementos view en columnas y filas. Para crear las filas se utiliza el objeto TableRow  cada fila puede tener 1 o más celdas o ninguna, y celda se crea por un tipo de objeto view.  Es decir, las celdas de una fila se pueden formar por una diversidad de objetos view, como ImageView o TextView.
+                p Es un contenedor #[em ViewGroup] que permite mostrar los elementos #[em view] en columnas y filas. Para crear las filas se utiliza el objeto TableRow  cada fila puede tener 1 o más celdas o ninguna, y celda se crea por un tipo de objeto view.  Es decir, las celdas de una fila se pueden formar por una diversidad de objetos view, como ImageView o TextView.
 
                 p.mt-2 El siguiente código XML de diseño tiene dos filas y tres celdas en cada uno y de otra fila y dos celdas.
 
@@ -147,8 +147,16 @@
 
             h3.mt-4 Estructura de un TableLayout
 
-            figure.mt-4.col-md-10.m-auto
+            p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[em XML TableLayout] 
+            figure.mt-2.col-md-10.m-auto
               img.image_floating(src="@/assets/curso/tema2/13.svg")
+
+            p.mt-4 El código anterior mostraría el #[strong TableLayout] de la siguiente forma:
+
+            p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") XML TableLayout
+
+            figure.mt-2.col-md-5
+              img.image_floating(src="@/assets/curso/tema2/38.png")
 
         ModalA(:abrir-modal.sync="modal3")
           .row(style="text-align:left")
@@ -169,7 +177,7 @@
             figure.mt-4.col-md-6.m-auto
               img.image_floating(src="@/assets/curso/tema2/17.svg")
 
-            p.mt-3 La figura anterior muestra las conexiones que tiene el view Button en sus ejes horizontales y verticales que se realizan desde el editor de diseño solo con arrastrar y soltar sin utilizar el código XML como en los anteriores contenedores.
+            p.mt-3 La figura anterior muestra las conexiones que tiene el #[em view Button] en sus ejes horizontales y verticales que se realizan desde el editor de diseño solo con arrastrar y soltar sin utilizar el código XML como en los anteriores contenedores.
 
     br
     .tarjeta.text-white.p-3.mt-5.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
@@ -205,7 +213,7 @@
     .titulo-segundo.mt-5
       h2#t_2_2 2.2 Controles básicos
 
-    p(data-aos="fade-up") En Android Studio se encuentra una amplia variedad de controles que se pueden utilizar en la interfaz de usuario, tales como botones (Button) campos de texto (EditText) vista de imágenes (ImageView) casillas de verificación (CheckBox) botones de selección (RadioButton) etiquetas de texto (TextView) listas (ListView) entre otros.
+    p(data-aos="fade-up") En Android Studio se encuentra una amplia variedad de controles que se pueden utilizar en la interfaz de usuario, tales como botones (#[em Button]) campos de texto (EditText) vista de imágenes (ImageView) casillas de verificación (CheckBox) botones de selección (RadioButton) etiquetas de texto (TextView) listas (ListView) entre otros.
 
     p.mt-4(data-aos="fade-up") #[strong Existen 3 propiedades que son indispensables en la creación de los controles nombrados anteriormente y son:]
 
@@ -225,7 +233,7 @@
     .row.mt-5
       .col-md-6.mb-3
         .p-5.caja_flotante_azul(style="background-color:#DBFBFF;height:100%;")
-          p(data-aos="fade-up") #[strong MATCH_PARENT,] lo que significa que la vista va a tener el tamaño de su padre en este caso el de la pantalla)
+          p(data-aos="fade-up") #[strong MATCH_PARENT,] lo que significa que la vista va a tener el tamaño de su padre en este caso el de la pantalla.
 
       .col-md-6.mb-3
         .p-5.caja_flotante_azul(style="background-color:#DBFBFF;height:100%;")
@@ -253,7 +261,7 @@
 
     h3.mt-5(data-aos="fade-up") Botones
 
-    p.mt-4(data-aos="fade-up") Un botón (Button) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un Button, con sus propiedades básicas:
+    p.mt-4(data-aos="fade-up") Un botón (#[em Button]) es un elemento de la interfaz en el que el usuario puede tocar o hacer clic para realizar una acción. En la tabla 1, puede observarse un ejemplo de un Button, con sus propiedades básicas:
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 1] Propiedades básicas Button
 
@@ -277,14 +285,14 @@
               h5.mb-0 android:text
             td(style="width:70%") Define el texto asociado a la vista
 
-    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 15] XML Creación Button
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 15] XML Creación #[em Button]
 
     figure.col-md-4
       img(src="@/assets/curso/tema2/19.svg" data-aos="fade-up")
 
     p.mt-4(data-aos="fade-up") Y el botón quedaría como se ve en la figura 16.
 
-    p.mt-4(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] Vista diseño Button
+    p.mt-4(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 16] Vista diseño #[em Button]
 
     figure.col-md-4
       img(src="@/assets/curso/tema2/20.svg" data-aos="fade-up")
@@ -296,7 +304,7 @@
     p.mt-4(data-aos="fade-up") Unos de los controles más utilizados son los referentes a los textos e imágenes, ya que son con los que más interactúa el usuario. A continuación, se realizará una descripción de tres de los componentes básicos más imprescindibles para el desarrollo de nuestras aplicaciones: los textos o etiquetas (TextView) las imágenes (ImageView) y los cuadros de texto (EditText)
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong.h5 TextView:] es un control utilizado para desplegar contenido textual generalmente estático, tiene la propiedad de acoplarse al control que lo contenga y no captura el foco en ningún momento por lo que generalmente no se programa ningún evento sobre él, sus propiedades básicas son las siguientes.
+      p(data-aos="fade-up") #[strong.h5 TextView:] es un control utilizado para desplegar contenido textual generalmente estático, tiene la propiedad de acoplarse al control que lo contenga y no captura el foco en ningún momento por lo que generalmente no se programa ningún evento sobre él, sus propiedades básicas son las siguientes:
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 2] Propiedades básicas TextView
 
@@ -326,7 +334,7 @@
               p.mb-0 #[strong android:text=]“Hola Mundo”
               p La segunda forma es por medio de archivo #[strong #[em string XML]] ubicado dentro de la carpeta values de los recursos del proyecto y asociar cada uno de los textos con una llave respectiva así:
 
-              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 29] Archivo XML String
+              p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") Archivo XML String
 
               figure.mt-3
                 img(src="@/assets/curso/tema2/21.svg" data-aos="fade-up")
@@ -349,7 +357,7 @@
             td(style="width:70%;")
               p Define el estilo de la fuente a usar, tiene los siguientes valores:
 
-              p.mt-4(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 30] Valores estilo de texto
+              p.mt-4(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") Valores estilo de texto
 
               figure.col-md-7
                 img(src="@/assets/curso/tema2/22.svg" data-aos="fade-up")
@@ -379,7 +387,7 @@
           img(src="@/assets/curso/tema2/24.svg" data-aos="fade-up")
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong.h4 ImageView:] es un control de imágenes que permite acceder a los recursos de imágenes (drawable o mipmap) permitiendo mostrar las imágenes en la aplicación, su propiedad principal es android:src que permite indicar la imagen a mostrar del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere mostrar a la carpeta drawable del proyecto /res/drawable y después en el XML se debe indicar la ruta de origen así: android:src=” @drawable/imagen”
+      p(data-aos="fade-up") #[strong.h4 ImageView:] es un control de imágenes que permite acceder a los recursos de imágenes (#[em drawable] o mipmap) permitiendo mostrar las imágenes en la aplicación, su propiedad principal es android:src que permite indicar la imagen a mostrar del proyecto. Lo primero que se debe hacer es copiar la imagen que se quiere mostrar a la carpeta #[em drawable] del proyecto /res/drawable y después en el XML se debe indicar la ruta de origen así: android:src=” @drawable/imagen”
 
       p.mt-4(data-aos="fade-up") Aparte de las propiedades de width y heigth que se encuentran en todos los view están las siguientes básicas para el imageview:
 
@@ -419,7 +427,7 @@
           img(src="@/assets/curso/tema2/26.svg" data-aos="fade-up")
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto.Una de sus propiedades más funcionales es la de inputType que define el tipo de entrada que va a tener el cuadro de texto el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (textEmailAdress) edad (number) apellido (text) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
+      p(data-aos="fade-up") #[strong EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto.Una de sus propiedades más funcionales es la de inputType que define el tipo de entrada que va a tener el cuadro de texto, el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (textEmailAdress) edad (#[em number]) apellido (#[em text]) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 4] Propiedades básicas EditText
 
@@ -429,14 +437,14 @@
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
               h5.mb-0 android:inputType
-            td(style="width:70%;") Establece el tipo de dato que ingresará en el campo de texto. Para esta propiedad existen los siguientes datos: text, number, texturi, textpassword, phone, date entro otros.
+            td(style="width:70%;") Establece el tipo de dato que ingresará en el campo de texto. Para esta propiedad existen los siguientes datos: #[em text], #[em number], texturi, textpassword, #[em phone], #[em date] entre otros.
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:hint
-            td(style="width:70%;") Esta propiedad permite desplegar un texto sobre el control a manera de ayuda mientras el usuario aún no ingresa información. (preferible sobre la propiedad text.
+              h5.mb-0 #[u android:hint]
+            td(style="width:70%;") Esta propiedad permite desplegar un texto sobre el control a manera de ayuda mientras el usuario aún no ingresa información. (preferible sobre la propiedad #[em text].
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
-              h5.mb-0 android:text
+              h5.mb-0 #[u android:text]
             td(style="width:70%;") Al igual que en el TextView puedo definir cuál es el texto que se mostrará en el control.
 
     p.mt-4(data-aos="fade-up") Ejemplo de EditText con sus propiedades básicas
@@ -461,7 +469,7 @@
     p.mt-4(data-aos="fade-up") Otro de los controles muy utilizados en las aplicaciones son los que permiten hacer una selección o un chequeo de alguna opción en las aplicaciones, Android cuenta con dos tipos: checkboxes y los radiobuttons.
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong CheckBox:] las casillas de verificación permiten que el usuario seleccione una o más opciones de un grupo. Aparte de las propiedades de width y heigth que se encuentran en todos los view están las siguientes básicas para el Checkbox:
+      p(data-aos="fade-up") #[strong CheckBox:] las casillas de verificación permiten que el usuario seleccione una o más opciones de un grupo. Aparte de las propiedades de width y heigth que se encuentran en todos los #[em view] están las siguientes básicas para el Checkbox:
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 5] Propiedades básicas Checkbox
 
@@ -509,7 +517,7 @@
           tr(style="background-color:#C1F8FF")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
               h5.mb-0 android:checked
-            td(style="width:70%;") Establece el estado actual de seleccionado por defecto del radiobutton
+            td(style="width:70%;") Establece el estado actual de seleccionado por defecto del RadioButton
           tr(style="background-color:#A9EBF4")
             td(style="border-right:2px #AFAFAF solid;width:30%;")
               h5.mb-0 android:text
@@ -521,7 +529,7 @@
 
     p.mt-5(data-aos="fade-up") Para definir un control de este tipo se utiliza como componente Padre un RadioGroup (Padre) y como hijos dos RadioButton (Hijo) el RadioGroup es el que permite que solo sea seleccionable una sola opción en caso de crear los radiobutton, sin un RadioGroup dejará seleccionar todas las opciones, lo que no es el fin del componente.
 
-    p.mt-4(data-aos="fade-up") En las propiedades del RadioGroup se puede definir la orientación de los #[strong RadioButton:] La orientación puede ser Vertical -Horizontal.
+    p.mt-4(data-aos="fade-up") En las propiedades del RadioGroup se puede definir la orientación de los #[strong RadioButton:] la orientación puede ser Vertical -Horizontal.
 
     p.mt-4(data-aos="fade-up") El siguiente código muestra la creación de dos RaddioButton con los textos de femenino y masculino los cuales están dentro de un RadioGroup con la propiedad de orientación vertical.
 
@@ -547,11 +555,11 @@
     p.mt-4(data-aos="fade-up") Los diferentes controles de los cuales dispone Android para seleccionar opciones dentro de una lista de posibilidades se llaman Spinner (para listas desplegables) y ListView (para listas fijas)
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong Spinner:] éste permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles a seleccionar su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
+      p(data-aos="fade-up") #[strong Spinner:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles, a seleccionar su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
 
       p.mt-4(data-aos="fade-up") #[strong Para añadir una lista de este tipo se deben seguir los pasos que se nombran a continuación:]
 
-    p.mt-5(data-aos="fade-up") 1. En los recursos /res/values/strings se debe crear el arreglo de String (string-array) con los valores que queremos mostrar en el spinner.
+    p.mt-5(data-aos="fade-up") 1. En los recursos /res/values/strings se debe crear el arreglo de #[em String] (string-array) con los valores que queremos mostrar en el spinner.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 27] Código para creación de un string-array
 
@@ -565,7 +573,7 @@
     figure.mt-4.col-md-7
       img(src="@/assets/curso/tema2/34.svg" data-aos="fade-up")
 
-    p.mt-4(data-aos="fade-up") #[span(style="color:red;") La figura 42] muestra la creación de un Spinner con sus propiedades básicas heigth, width y el Id, y la propiedad entries donde relaciona el array ciudades creado en los recursos.
+    p.mt-4(data-aos="fade-up") #[span La figura] muestra la creación de un Spinner con sus propiedades básicas heigth, width y el Id, y la propiedad entries donde relaciona el array ciudades creado en los recursos.
 
     p.mt-4(data-aos="fade-up") El Spinner quedarían como se ve en la figura 29
 
@@ -757,7 +765,7 @@ export default {
   border: 0
 .bloque-texto-a.color-primario
   background-color: #F3F9FF
-.caja__1
+.caja___1
   text-align: center
 .boton__1
   background-color: #FFCA28
@@ -779,7 +787,7 @@ export default {
   -ms-transition: transform .5s linear
   -moz-transition: transform .5s linear
   -webkit-transition: transform .5s linear
-.caja__1
+.caja___1
   background: url("../assets/curso/tema2/5.svg")
   background-size: cover
   background-position:center

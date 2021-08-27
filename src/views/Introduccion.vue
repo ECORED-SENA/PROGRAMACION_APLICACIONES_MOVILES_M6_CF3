@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p(data-aos="fade-up") Actualmente los sistemas operativos para dispositivos móviles brindan la posibilidad de construir aplicaciones para estos sistemas, proporcionando para esto un software llamado SDK; tanto Android como IOS, ofrecen sus respectivas herramientas para crear sus aplicaciones nativas. Las características que brindan los dispositivos móviles como: GPS, cámara, navegación a internet se aprovechan en el desarrollo de las aplicaciones, posibilitando interesantes ideas para utilidades de los usuarios.
+    p(data-aos="fade-up") Actualmente los sistemas operativos para dispositivos móviles brindan la posibilidad de construir aplicaciones para estos sistemas, proporcionando para esto un #[em software] llamado SDK; tanto Android como IOS, ofrecen sus respectivas herramientas para crear sus aplicaciones nativas. Las características que brindan los dispositivos móviles como: GPS, cámara, navegación a internet se aprovechan en el desarrollo de las aplicaciones, posibilitando interesantes ideas para utilidades de los usuarios.
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mt-5.caja_flotante(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between

@@ -14,7 +14,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema5/1.svg" style="display:inline;max-width:150px;")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") Todos los componentes de una aplicación Android, tanto las actividades, los servicios, o los broadcasts receivers se ejecutan en el mismo hilo de ejecución, el llamado hilo principal, main thread o GUI thread, que como éste último nombre indica también es el hilo donde se ejecutan todas las operaciones que gestionan la interfaz de usuario de la aplicación. Es por ello, que cualquier operación larga o costosa que se realice en este hilo va a bloquear la ejecución del resto de componentes de la aplicación y por supuesto también la interfaz, produciendo al usuario un efecto evidente de lentitud, bloqueo, o mal funcionamiento en general.
+            p(data-aos="fade-up") Todos los componentes de una aplicación Android, tanto las actividades, los servicios, o los broadcasts #[em receivers] se ejecutan en el mismo hilo de ejecución, el llamado hilo principal, main thread o GUI thread, que como éste último nombre indica también es el hilo donde se ejecutan todas las operaciones que gestionan la interfaz de usuario de la aplicación. Es por ello, que cualquier operación larga o costosa que se realice en este hilo va a bloquear la ejecución del resto de componentes de la aplicación y por supuesto también la interfaz, produciendo al usuario un efecto evidente de lentitud, bloqueo, o mal funcionamiento en general.
 
     br
     p.mt-5(data-aos="fade-up") #[strong Android utiliza la clase AsyncTack para ejecutar tareas de segundo plano.]
@@ -221,11 +221,6 @@ export default {
   -ms-transition: transform .5s linear
   -moz-transition: transform .5s linear
   -webkit-transition: transform .5s linear
-.caja__1
-  background: url("../assets/curso/tema2/5.svg")
-  background-size: cover
-  background-position:center
-  filter: drop-shadow(0px 10px 6px rgba(0,0,0,.4))
 .tabla__1 th,.tabla__1 td
   padding: 1.1rem
 .anexo *

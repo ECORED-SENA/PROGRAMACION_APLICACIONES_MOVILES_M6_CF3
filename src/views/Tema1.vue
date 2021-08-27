@@ -9,7 +9,7 @@
 
     p(data-aos="fade-up") #[strong Las actualizaciones en Android Studio avanzan muy rápido, para este componente los ejemplos que se muestran son para la versión 4.1.3]
 
-    p.mt-4(data-aos="fade-up") En Android Studio, un proyecto contiene todos los elementos necesarios para el desarrollo de una APP: desde código fuente y recursos, hasta código de prueba y configuraciones de compilación. Al iniciar un nuevo proyecto, Android Studio crea la estructura necesaria para todos los archivos y los muestra en la ventana Project del lado izquierdo del IDE (haz clic en View > Tool Windows > Project >), o con su acceso directo Alt +1. Observe la estructura en la siguiente imagen:
+    p.mt-4(data-aos="fade-up") En Android Studio, un proyecto contiene todos los elementos necesarios para el desarrollo de una APP: desde código fuente y recursos, hasta código de prueba y configuraciones de compilación. Al iniciar un nuevo proyecto, Android Studio crea la estructura necesaria para todos los archivos y los muestra en la ventana #[em Project] del lado izquierdo del IDE (haz clic en View > Tool Windows > Project >), o con su acceso directo Alt +1. Observe la estructura en la siguiente imagen:
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 1] Imagen estructura de proyecto en Android Studio
 
@@ -20,20 +20,25 @@
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 2] Vista estructura del proyecto
 
-    p.mt-5(data-aos="fade-up") Los proyectos de Android Studio tienen unos componentes principales que se explican en siguiente video, los cuales se distribuyen entre:
+    figure.mt-5.m-auto.col-md-6
+      img(src="@/assets/curso/tema1/11.svg" data-aos="fade-up")
 
-    p.mt-4(data-aos="fade-up") #[strong Módulos y  Archivos de proyecto:]
+    p.mt-5(data-aos="fade-up") Los proyectos de Android Studio tienen unos componentes principales que se explican en el siguiente video, los cuales se distribuyen entre:
+
+    ul.mt-4(style="padding:revert;list-style:disc")
+      li(data-aos="fade-up") Modulos y
+      li(data-aos="fade-up") Archivos de proyecto
 
     figure.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Fx1GKTaNdxQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/upyzIois6xA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     br
     br
     .titulo-segundo.mt-5
       h2#t_1_1 1.1 Manifest
 
-    p(data-aos="fade-up") En el manifest se encuentra la información esencial de una aplicación para las herramientas de creación de Android, el sistema operativo Android y Google Play.
+    p(data-aos="fade-up") En el manifest se encuentra la información esencial de una aplicación para las herramientas de creación de Android, el sistema operativo Android y #[em Google Play].
 
     p.mt-4(data-aos="fade-up") El manifest es un archivo en lenguaje XML y se definen aspectos principales de la aplicación, como por ejemplo su identificación (nombre, icono, estilos), sus componentes (pantallas, servicios) o los permisos necesarios para su ejecución. 
 
@@ -49,7 +54,7 @@
 
       .tarjeta.tarjeta__1.p-3(x="28%" y="5%")
         .h4.mb-2 Nombre del paquete
-        p El nombre del paquete debe coincidir con el nombre del paquete básico que se crea cuando se inicia un nuevo proyecto y, sirve como un ID que permite identificar de manera exclusiva la APP en el dispositivo y en Google Play Store.
+        p El nombre del paquete debe coincidir con el nombre del paquete básico que se crea cuando se inicia un nuevo proyecto y, sirve como un ID que permite identificar de manera exclusiva la APP en el dispositivo y en #[em Google Play Store].
       
       .tarjeta.tarjeta__1.p-3(x="86%" y="25%")
         .h4.mb-2 Permisos
@@ -60,7 +65,7 @@
         p En el manifest se configura el icono que tendrá la aplicación a través de la etiqueta icon al igual que el nombre de la aplicación con la etiqueta label.
       
       .tarjeta.color-acento-botones.p-3(x="25%" y="71%")
-        .h4.mb-2 Activity
+        .h4.mb-2 #[em Activity]
         p Uno de los componentes principales que se encuentran declarados en el manifest son las actividades, la etiqueta #[strong &lt;activity&gt;] declara el componente de una actividad.
     
 
@@ -96,7 +101,7 @@
     .titulo-segundo.mt-5
       h2#t_1_3 1.3 Res
 
-    p(data-aos="fade-up") En esta carpeta se encuentran todos los recursos del proyecto sin código, como diseños XML, strings de IU y también imágenes de mapa de bits, divididos en subdirectorios.
+    p(data-aos="fade-up") En esta carpeta se encuentran todos los recursos del proyecto sin código, como diseños XML, #[em strings] de IU y también imágenes de mapa de bits, divididos en subdirectorios.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 5] Imagen estructura carpeta res
 
@@ -152,7 +157,7 @@
     .titulo-segundo.mt-5
       h2#t_1_4 1.4 Gradle
 
-    p(data-aos="fade-up") El gradle permite la compilación del proyecto, en este es posible configurar la versión del SDK que Android utilizada para compilar, la mínima versión de Android que soportará la aplicación, referencias a las librerías externas utilizadas, etc.
+    p(data-aos="fade-up") El gradle permite la compilación del proyecto, en este es posible configurar la versión del SDK que Android utiliza para compilar, la mínima versión de Android que soportará la aplicación, referencias a las librerías externas utilizadas, etc.
 
     p.mt-4(data-aos="fade-up") En un proyecto pueden existir varios ficheros build.gradle, para definir determinados parámetros a distintos niveles. Por ejemplo, la imagen muestra un build.gradle a nivel de proyecto, y otro a nivel de módulo dentro de la carpeta /app. El primero de ellos definirá parámetros globales a todos los módulos del proyecto, y el segundo sólo tendrá efecto para cada módulo en particular.
 

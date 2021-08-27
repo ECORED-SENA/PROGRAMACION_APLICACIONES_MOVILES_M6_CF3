@@ -24,7 +24,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Estructura de un proyecto en android studio',
+        titulo: 'Estructura de un proyecto en Android Studio',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -57,7 +57,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Interfaz de usuario en android',
+        titulo: 'Interfaz de usuario en Android',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -132,6 +132,12 @@ export default {
             titulo: 'MediaPlayer',
             hash: 't_7_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'VideoView',
+            hash: 't_7_2',
+          },
         ],
       },
     ],
@@ -172,7 +178,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Documentation | Desarrolladores de Android | Android Developers. (2021, may 24). Retrieved from ',
+        'Documentation | Desarrolladores de Android | Android Developers. (2021, may 24). <em>Retrieved from</em> ',
       link: 'https://developer.android.com/docs',
     },
   ],
@@ -188,15 +194,15 @@ export default {
     },
     {
       termino: 'SDK',
-      significado: 'Kit de desarrollo de software.',
+      significado: 'Kit de desarrollo de <em>software</em>.',
     },
     {
       termino: 'String',
-      significado: 'Recurso XML que ofrece una sola string.',
+      significado: 'Recurso XML que ofrece una sola <em>string</em>.',
     },
     {
       termino: 'View',
-      significado: 'View es la clase base de los widgets.',
+      significado: '<em>View</em> es la clase base de los widgets.',
     },
     {
       termino: 'Wearable',
@@ -211,102 +217,102 @@ export default {
   complementario: [
     {
       texto:
-        'Introducción al desarrollo de aplicaciones móviles para Android. (2019, October 07). Retrieved from ',
+        'Introducción al desarrollo de aplicaciones móviles para Android. (2019, October 07). <em>Retrieved from</em> ',
       tipo: 'Página',
       link:
         'https://inlab.fib.upc.edu/es/cursos/introduccion-al-desarrollo-de-aplicaciones-moviles-para-android',
     },
     {
-      texto: 'Android Developers. (2021, May 25). Retrieved from ',
+      texto: 'Android Developers. (2021, May 25). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link: 'https://developer.android.com/?hl=es-419',
     },
     {
-      texto: 'sgoliver.net. (2020, April 26). Retrieved from ',
+      texto: 'sgoliver.net. (2020, April 26). <em>Retrieved from</em> ',
       tipo: 'Página',
       link:
         'https://www.sgoliver.net/blog/estructura-de-un-proyecto-android-android-studio',
     },
     {
       texto:
-        'Aspectos fundamentales de la aplicación | Desarrolladores de Android. (2020, October 07). Retrieved from',
+        'Aspectos fundamentales de la aplicación | Desarrolladores de Android. (2020, October 07). <em>Retrieved from</em>',
       tipo: 'Página oficial',
       link:
         'https://developer.android.com/guide/components/fundamentals?hl=es-419#Manifest',
     },
     {
       texto:
-        'Notas de la versión del complemento de Android para Gradle. (2021, June 14). Retrieved from ',
+        'Notas de la versión del complemento de Android para Gradle. (2021, June 14). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link:
         'https://developer.android.com/studio/releases/gradle-plugin?hl=es#updating-gradle',
     },
     {
       texto:
-        'Cómo ejecutar tu app | Desarrolladores de Android | Android Developers. (2021, June 14). Retrieved from ',
+        'Cómo ejecutar tu app | Desarrolladores de Android | Android Developers. (2021, June 14). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link:
         'https://developer.android.com/training/basics/firstapp/running-app?hl=es-419',
     },
     {
-      texto: 'sgoliver.net. (2020, June 04). Retrieved from ',
+      texto: 'sgoliver.net. (2020, June 04). <em>Retrieved from</em> ',
       tipo: 'Página',
       link:
         'https://www.sgoliver.net/blog/interfaz-de-usuario-en-android-layouts',
     },
     {
       texto:
-        'Cómo crear una IU responsiva con ConstraintLayout. (2021, June 21). Retrieved from ',
+        'Cómo crear una IU responsiva con ConstraintLayout. (2021, June 21). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link:
         'https://developer.android.com/training/constraint-layout?hl=es-419',
     },
     {
-      texto: 'sgoliver.net. (2020, June 04). Retrieved from ',
+      texto: 'sgoliver.net. (2020, June 04). <em>Retrieved from</em> ',
       tipo: 'Página',
       link:
         'https://www.sgoliver.net/blog/interfaz-de-usuario-en-android-controles-de-seleccion-i',
     },
     {
       texto:
-        'Castillo, J. D. L. (2015, May 21). Capítulo 14 - Interacción con Botones, TextView, ImageView. Youtube. Retrieved from ',
+        'Castillo, J. D. L. (2015, May 21). Capítulo 14 - Interacción con Botones, TextView, ImageView. Youtube. <em>Retrieved from</em> ',
       tipo: 'Video Youtube',
       link: 'https://www.youtube.com/watch?v=-z8zTGTo7vA',
     },
     {
       texto:
-        'Castillo, J. D. L. (2015, May 21). Capítulo 15 - Android Studio Intent Abrir una Activity. Youtube. Retrieved from ',
+        'Castillo, J. D. L. (2015, May 21). Capítulo 15 - Android Studio Intent Abrir una Activity. Youtube. <em>Retrieved from</em> ',
       tipo: 'Video Youtube',
       link: 'https://www.youtube.com/watch?v=LEVXzsXhO0A',
     },
     {
       texto:
-        'Intents y filtros de intents | Desarrolladores de Android. (2020, November 03). Retrieved from ',
+        'Intents y filtros de intents | Desarrolladores de Android. (2020, November 03). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link:
         'https://developer.android.com/guide/components/intents-filters?hl=es-419',
     },
     {
       texto:
-        'Save data using SQLite | Android Developers. (2021, June 17). Retrieved from ',
+        '<em>Save data using</em> SQLite | Android Developers. (2021, June 17). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link: 'https://developer.android.com/training/data-storage/sqlite',
     },
     {
       texto:
-        'Cómo conectarse a Firebase | Desarrolladores de Android. (2020, November 24). Retrieved from ',
+        'Cómo conectarse a Firebase | Desarrolladores de Android. (2020, November 24). <em>Retrieved from</em> ',
       tipo: 'Página oficial',
       link: 'https://developer.android.com/studio/write/firebase?hl=es-419',
     },
     {
       texto:
-        '¿Qué es un Wearable y para qué sirve? [junio 2021]. (2021, April 13). Retrieved from ',
+        '¿Qué es un Wearable y para qué sirve? [junio 2021]. (2021, April 13). <em>Retrieved from</em> ',
       tipo: 'Página',
       link: 'https://www.geeknetic.es/Wearable/que-es-y-para-que-sirve',
     },
     {
       texto:
-        'Layouts | Android Developers. (2020, January 07). Retrieved from ',
+        'Layouts | Android Developers. (2020, January 07). <em>Retrieved from</em> ',
       tipo: 'Página',
       link: 'https://developer.android.com/guide/topics/ui/declaring-layout',
     },
@@ -327,14 +333,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: ' Wilson Andrés Cuervo Nieto',
-        cargo: ' Experto temático',
-        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        nombre: 'Zulema León',
+        cargo: ' Experta temática',
+        centro: 'Centro de Teleinformática y Producción Industrial',
       },
       {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro agropecuario La Granja - Regional Tolima',
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
@@ -342,8 +348,8 @@ export default {
         centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
       },
       {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Edición y corrección de estilo',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
       },
@@ -373,7 +379,18 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'María Camila Ovalle Ospina',
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

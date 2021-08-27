@@ -14,7 +14,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema7/1.svg" style="display:inline;max-width:150px;")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") En Android Studio la integración de contenido multimedia en las aplicaciones es muy sencilla gracias a las opciones que nos presenta la API. Las principales clases que facilitan el acceso a los servicios multimedia son MediaPlayer, VideoView, además de ser los más usados
+            p(data-aos="fade-up") En Android Studio la integración de contenido multimedia en las aplicaciones es muy sencilla gracias a las opciones que nos presenta la API. Las principales clases que facilitan el acceso a los servicios multimedia son MediaPlayer, VideoView, además de ser los más usados.
 
     br
     br
@@ -41,10 +41,8 @@
                 |  1. Crear un directorio dentro de la carpeta res #[br] llamada raw
             b-card-text
               figure
-                img(src="@/assets/curso/tema7/2.svg")
+                img(src="@/assets/curso/tema7/2.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 41] Creación directorio raw
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Crear un directorio dentro de la carpeta res llamada raw
 
           b-tab
             template(#title)
@@ -52,8 +50,6 @@
                 i.fas.fa-caret-right
                 |  2. Copiar un sonido en la carpeta raw de #[br] extensión mp3.
             b-card-text
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p 2. Copiar un sonido en la carpeta raw de extensión mp3.
 
           b-tab
             template(#title)
@@ -62,7 +58,7 @@
                 |  3. En la clase Java escribe el siguiente código.
             b-card-text
               figure
-                img(src="@/assets/curso/tema7/3.svg")
+                img(src="@/assets/curso/tema7/3.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 42] Declaración variable Media Player
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p 3. En la clase Java escribe el siguiente código.
@@ -74,7 +70,7 @@
                 |  4. Se crea la instancia del Sonido.
             b-card-text
               figure
-                img(src="@/assets/curso/tema7/4.svg")
+                img(src="@/assets/curso/tema7/4.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 43] Instancia Media Player
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Se crea la instancia del Sonido.
@@ -86,7 +82,7 @@
                 |  5. Ejecución del Sonido.
             b-card-text
               figure
-                img(src="@/assets/curso/tema7/5.svg")
+                img(src="@/assets/curso/tema7/5.svg" style="max-width:500px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 44] Ejecutar el Sonido
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Ejecución del Sonido.
@@ -95,10 +91,40 @@
 
     p.mt-2(data-aos="fade-up") En la figura 43, se crea la instancia del sonido y almacena el sonido ubicado en la carpeta raw
 
-    p.mt-2(data-aos="fade-up") En la figura 44, se ejecuta el sonido con el método start. 
+    p.mt-2(data-aos="fade-up") En la figura 44, se ejecuta el sonido con el método #[em start]. 
 
 
+    br
+    br
+    .titulo-segundo.mt-5
+      h2#t_7_2 7.2 VideoView
 
+    p(data-aos="fade-up") La clase VideoView permite mostrar un archivo de video. La clase VideoView puede cargar videos de varias fuentes (como recursos o proveedores de contenido) La propiedad principal de VideoView es el setVideoURI donde se establece la ruta del video a mostrar.
+
+    p.mt-4(data-aos="fade-up") #[strong A continuación, se realiza un ejemplo para mirar el funcionamiento del VideoView.]
+
+    p.mt-5(data-aos="fade-up") #[strong 1.] Al igual que con el MediaPlayer se debe crear la carpeta raw y guardar en esta carpeta el video de extensión mp4. carpeta res/raw
+
+    p(data-aos="fade-up") #[strong 2.] En el Layout se crea el componente VideoView.
+
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 45] Código XML VIdeoView
+
+    figure.mt-4.col-md-6.m-auto
+      img.image_floating(src="@/assets/curso/tema7/6.svg" data-aos="fade-up")
+
+    p.mt-5(data-aos="fade-up") #[strong 3.] En la clase Java se realiza todo el código descrito paso a paso en la figura 62.
+
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 46] Código Java VideoView
+
+    figure.mt-4.col-md-9.m-auto
+      img.image_floating(src="@/assets/curso/tema7/7.svg" data-aos="fade-up")
+
+    p.mt-5(data-aos="fade-up") Al ejecutar se mostrará de la siguiente manera
+
+    p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 47] Vista Ejecución VideoView
+
+    figure.mt-4.col-md-4.m-auto
+      img.image_floating(src="@/assets/curso/tema7/8.svg" data-aos="fade-up")
 
 
 
@@ -261,11 +287,6 @@ export default {
   -ms-transition: transform .5s linear
   -moz-transition: transform .5s linear
   -webkit-transition: transform .5s linear
-.caja__1
-  background: url("../assets/curso/tema2/5.svg")
-  background-size: cover
-  background-position:center
-  filter: drop-shadow(0px 10px 6px rgba(0,0,0,.4))
 .tabla__1 th,.tabla__1 td
   padding: 1.1rem
 .anexo *

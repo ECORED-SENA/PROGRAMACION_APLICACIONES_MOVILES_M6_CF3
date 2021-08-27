@@ -86,7 +86,7 @@
 
     p(data-aos="fade-up") Una base de datos en tiempo real se refiere a un sistema de base de datos que se basa en el procesamiento en tiempo real que toma los datos entrantes a medida que fluyen del servidor.
 
-    p.mt-4(data-aos="fade-up") La base de datos en tiempo real de Firebase (Firebase Realtime Database) es sin duda uno de los servicios más populares de la plataforma.
+    p.mt-4(data-aos="fade-up") La base de datos en tiempo real de Firebase (Firebase #[em Realtime Database]) es sin duda uno de los servicios más populares de la plataforma.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 33] Logo Firebase
 
@@ -96,7 +96,7 @@
           img.image_floating(src="@/assets/curso/tema6/1.svg" data-aos="fade-left")
 
       .col-md-9
-        p(data-aos="fade-right").mt-3 Firebase es una plataforma para el desarrollo de aplicaciones web y aplicaciones móviles creada por James Tamplin y Andrew Lee en 2011, y adquirida por Google en 2014. Provee servicios muy útiles que podemos incorporar en nuestras aplicaciones Android (además de otros sistemas operativos) tales como:
+        p(data-aos="fade-right").mt-3 Firebase es una plataforma para el desarrollo de aplicaciones #[em web] y aplicaciones móviles creada por James Tamplin y Andrew Lee en 2011, y adquirida por Google en 2014. Provee servicios muy útiles que podemos incorporar en nuestras aplicaciones Android (además de otros sistemas operativos) tales como:
 
     .row.mt-5.col-md-11
       .col-md-4.mb-3
@@ -123,7 +123,7 @@
 
       .col-md-8
         .p-5.caja__1.caja_flotante_azul(style="background-color:#A9EBF4;position:relative;" data-aos="fade-right")
-          p(data-aos="fade-up") #[strong Database:] proporciona un base de datos en tiempo real y back-end. El servicio proporciona a los desarrolladores de aplicaciones una API que permite que la información de las aplicaciones sea sincronizada y almacenada en la nube de Firebase.
+          p(data-aos="fade-up") #[strong #[em Database]:] proporciona un base de datos en tiempo real y back-end. El servicio proporciona a los desarrolladores de aplicaciones una API que permite que la información de las aplicaciones sea sincronizada y almacenada en la nube de Firebase.
 
     .row.mt-4.col-md-11
       .col-md-4.mb-3
@@ -141,7 +141,7 @@
 
       .col-md-8
         .p-5.caja__1.caja_flotante_azul(style="background-color:#A9EBF4;position:relative;" data-aos="fade-right")
-          p(data-aos="fade-up") #[strong Notifications:] con Firebase se puede usar el API FirebaseMessaging que permite el envío de mensajes desde Firebase hacia un dispositivo concreto o múltiples dispositivos, pudiendo gestionar las notificaciones desde la consola de Firebase.
+          p(data-aos="fade-up") #[strong #[em Notifications]:] con Firebase se puede usar el API FirebaseMessaging que permite el envío de mensajes desde Firebase hacia un dispositivo concreto o múltiples dispositivos, pudiendo gestionar las notificaciones desde la consola de Firebase.
 
     br
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
@@ -150,16 +150,16 @@
       ul.lista-ul.mt-4
         li(data-aos="fade-up") 
           i.fas.fa-check
-          |  No requiere la instalación de un servidor ni requiere instalación de software ya que la base de datos está alojada en la nube.
+          |  No requiere la instalación de un servidor ni requiere instalación de #[em software] ya que la base de datos está alojada en la nube.
         li(data-aos="fade-up") 
           i.fas.fa-check
-          |   El formato de almacenamiento de los datos es en formato JSON, con base de datos no relacional.
+          |   El formato de almacenamiento de los datos es en formato #[em JSON], con base de datos no relacional.
         li(data-aos="fade-up") 
           i.fas.fa-check
           |  La actualización de los datos se hace en milisegundos debido a que la sincronización es en tiempo real. 
         li(data-aos="fade-up") 
           i.fas.fa-check
-          |  Permite apps multiplataforma iOS, Android y Web (JavaScript). 
+          |  Permite apps multiplataforma iOS, Android y #[em Web] (#[em JavaScript]). 
         li(data-aos="fade-up") 
           i.fas.fa-check
           |  Aun cuando el dispositivo se encuentre sin Internet la aplicación sigue funcionando gracias a la caché.
@@ -184,7 +184,7 @@
         b-tabs(pills='' card='' vertical='')
           b-tab(disabled="true")
             template(#title)
-              h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") configuración de Firebase en el proyecto #[br] de Android Studio
+              h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") Configuración de Firebase en el proyecto #[br] de Android Studio
               .indicador--click
           b-tab
             template(#title)
@@ -195,8 +195,6 @@
               figure
                 img(src="@/assets/curso/tema6/7.svg")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 34] Creación de proyecto en Firebase
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Crear un Proyecto en la consola de Firebase.
 
           b-tab
             template(#title)
@@ -205,10 +203,8 @@
                 |  2. Agregar el proyecto.
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/8.svg")
+                img(src="@/assets/curso/tema6/8.svg" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 35] Agregar un proyecto en Firebase
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Agregar el proyecto.
 
           b-tab
             template(#title)
@@ -217,10 +213,9 @@
                 |  3. Seleccionar la plataforma para agregar a la APP. 
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/9.svg")
+                img(src="@/assets/curso/tema6/9.svg" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 36] Agregar Firebase a la aplicación
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Seleccionar la plataforma para agregar a la APP. 
+              
 
           b-tab
             template(#title)
@@ -229,7 +224,7 @@
                 |  4. Ingresar el nombre del paquete de la APP en #[br] el campo Nombre del paquete
             b-card-text
               figure
-                img(src="@/assets/curso/tema6/10.svg")
+                img(src="@/assets/curso/tema6/10.svg" style="max-width:300px;")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 37] Registra APP
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Lo más importante es copiar el paquete de tu proyecto de Android Studio que se encuentra en el manifest com.dominio.proyecto
@@ -238,13 +233,11 @@
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
                 i.fas.fa-caret-right
-                |  5. Descargar archivo Json google-services.json  #[br] y copiarlo en la raíz del proyecto de Android Studio #[br] como lo indica la figura 53.
+                |  5. Descargar archivo Json google-services.json  #[br] y copiarlo en la raíz del proyecto de Android Studio #[br] como lo indica la figura.
             b-card-text
               figure
                 img(src="@/assets/curso/tema6/11.svg")
               p.mt-3(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 38] Descarga Archivo Json
-              .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
-                p Descargar archivo Json google-services.json  y copiarlo en la raíz del proyecto de Android Studio como lo indica la figura 53.
 
           b-tab
             template(#title)
@@ -272,7 +265,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Ejemplo para incorporar en nuestro proyecto todos estos servicios.
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
               p.mt-3(style="color: #12263F !important;") A continuación, puede consultar un ejemplo completo sobre el uso de la base de datos de Firebase en Android Studio, denominado Ejemplo Firebase que se encuentra en los anexos del material complementario.
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('downloads/Ejemplo Firebase.pdf')" target="_blank")

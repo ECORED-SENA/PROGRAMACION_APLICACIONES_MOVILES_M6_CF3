@@ -7,7 +7,7 @@
         span 4
       h1  Navegación (intents)
 
-    p(data-aos="fade-up") La navegación entre pantallas en Android se realiza a través de los Intent. El Intent es básicamente una intención de hacer una acción, es la forma de comunicación en Android, que permite interactuar componentes de la misma aplicación o entre diferentes aplicaciones (Activities, Services, Broadcasts, etc.) #[br] Existen dos tipos de Intents:
+    p(data-aos="fade-up") La navegación entre pantallas en Android se realiza a través de los Intent. El Intent es básicamente una intención de hacer una acción, es la forma de comunicación en Android, que permite interactuar componentes de la misma aplicación o entre diferentes aplicaciones (#[em Activities], #[em Services], Broadcasts, etc.) #[br] Existen dos tipos de Intents:
 
 
     .bloque-texto-a.color-primario.p-4.p-md-5.mt-5.caja_flotante_azul(data-aos="fade-left")
@@ -17,7 +17,7 @@
             img.imagen_flotante_animada(src="@/assets/curso/tema4/1.svg")
         .col-lg-8
           .bloque-texto-a__texto.p-5.caja_escalada_hover(style="background-color: rgb(255 255 255 / 95%);")
-            p(data-aos="fade-up") Intent Explícito: Se utilizan para llamar a un componente específico: Por ejemplo, se tiene una aplicación que contiene 2 actividades. Actividad A y Actividad B y la aplicación requiere navegar desde la Actividad A hasta la Actividad B. En este caso, se define una intención explícita. #[br] Para ello se utiliza la clase Intent donde se le especifica donde está y a dónde quiere ir.
+            p(data-aos="fade-up") #[strong intent explícito:] se utilizan para llamar a un componente específico: Por ejemplo, se tiene una aplicación que contiene 2 actividades. Actividad A y Actividad B y la aplicación requiere navegar desde la Actividad A hasta la Actividad B. En este caso, se define una intención explícita. #[br] Para ello se utiliza la clase Intent donde se le especifica donde está y a dónde quiere ir.
 
             p.mt-3.mb-0(data-aos="fade-up") #[strong Intent intent = new Intent (ActividaA.this, ActivityB.class);]
             p(data-aos="fade-up") #[strong startActivity(intent);]
@@ -34,7 +34,7 @@
     p.mt-5(data-aos="fade-up") La figura 32, muestra cómo se usa una intent para iniciar una actividad. Cuando el objeto Intent nombra un componente de actividad específico de forma explícita, el sistema inicia ese componente al instante.
 
     .mt-5.p-5.caja_flotante_azul(style="background-color:#DBFBFF")
-      p(data-aos="fade-up") #[strong Intent Implícito:]  a diferencia de los explícitos, los intent implícitos no nombran el componente específico. Se usan para iniciar un componente específico de la aplicación, por ejemplo, si se quiere mostrar al usuario la cámara, una ubicación de un mapa o una página Web se usan los intent implícitos para solicitar que se muestran estos servicios.
+      p(data-aos="fade-up") #[strong Intent Implícito:]  a diferencia de los explícitos, los intent implícitos no nombran el componente específico. Se usan para iniciar un componente específico de la aplicación, por ejemplo, si se quiere mostrar al usuario la cámara, una ubicación de un mapa o una página #[em Web] se usan los intent implícitos para solicitar que se muestran estos servicios.
 
       p.mt-4.mb-0(data-aos="fade-up") Ejemplo:
       p.mb-0.mt-1(data-aos="fade-up") #[strong Intent intent = new Intent (Intent.ACTION_VIEW, Uri.parse(“http://www.example.com”));]
@@ -64,7 +64,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Intent implícito
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
               p.mt-3(style="color: #12263F !important;") Y para ampliar la información sobre Intent implícito, puedes visitar la página
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=tU2ZZng7FnI" target="_blank")
@@ -235,11 +235,6 @@ export default {
   -ms-transition: transform .5s linear
   -moz-transition: transform .5s linear
   -webkit-transition: transform .5s linear
-.caja__1
-  background: url("../assets/curso/tema2/5.svg")
-  background-size: cover
-  background-position:center
-  filter: drop-shadow(0px 10px 6px rgba(0,0,0,.4))
 .tabla__1 th,.tabla__1 td
   padding: 1.1rem
 .anexo *
