@@ -66,7 +66,7 @@
 
           .col-md-5.text-center.mb-4
             figure.m-auto
-              img.image_floating(src="@/assets/curso/tema2/6.svg" data-aos="fade-left")
+              img.image_floating(src="@/assets/curso/tema2/6.svg" data-aos="fade-left" style="max-height:500px;")
 
         .col-md-12.m-auto.mt-5(style="display:inline-flex;")
           figure(style="text-align:right;")
@@ -188,10 +188,10 @@
             p.mt-3 La figura anterior muestra las conexiones que tiene el #[em view Button] en sus ejes horizontales y verticales que se realizan desde el editor de diseño solo con arrastrar y soltar sin utilizar el código XML como en los anteriores contenedores.
 
     br
-    .tarjeta.text-white.p-3.mt-5.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
+    .tarjeta.text-white.p-3.mt-4.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.imagen_flotante_animada(style="max-width:100px;" src="@/assets/curso/tema1/3.svg")
+          img(src="@/assets/curso/tema1/3.svg" style="max-width:100px;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -200,21 +200,14 @@
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/training/constraint-layout?hl=es-419" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
-
-    .tarjeta.text-white.p-3.mt-4.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
-      .row.justify-content-around.align-items-center
-        .col-4.col-sm-2.col-lg-2
-          img.imagen_flotante_animada(src="@/assets/curso/tema1/3.svg")
-        .col
+                i.fas.fa-globe(style="color: #12263F !important;")
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos 
-              p.mt-3(style="color: #12263F !important;") Interfaz de usuario en Android: Layouts
+              p(style="color: #12263F !important;") Interfaz de usuario en Android: Layouts
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.sgoliver.net/blog/interfaz-de-usuario-en-android-layouts" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
     br
     br
