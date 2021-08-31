@@ -123,7 +123,21 @@
             h3.mt-4 Diseño utilizando LinearLayout
 
             figure.mt-4.col-md-10.m-auto
-              img.image_floating(src="@/assets/curso/tema2/13.svg")
+              img.image_floating(src="@/assets/curso/tema2/39.png")
+
+            p.mt-4 La figura  muestra el código Xml para la creación de un #[strong #[em layout]] de tipo #[strong #[em LinearLayout]] con la orientación vertical el cual contiene dos #[strong #[em views]] de tipo #[strong #[em Button]].
+
+            p.mt-2 #[strong &lt;LinearLayout:] tipo de contenedor lineal #[br] #[strong orientation=vertical:] propiedad que define la ubicación de los #[em views] de forma vertical. #[br] #[strong layout_width:] propiedad que define el ancho del contenedor. #[br] #[strong layout_height:] propiedad que define el alto del contenedor #[Strong &gt;]
+
+            p.mt-2 #[strong &lt;Button:] etiqueta para crear un #[em view] de tipo #[em Button] (Botón). #[br] #[strong layout_width:] propiedad que define el ancho del #[em view]. #[br] #[strong layout_height:] propiedad que define el alto del #[em view] #[br] #[strong text:] propiedad que define el título del #[em button] #[Strong /&gt;]
+
+            p.mt-2 El código anterior mostraría el #[em #[strong LinearLayout]] de la siguiente forma:
+
+            p.mt-2(style="padding-left:13px;border-left:4px #4DD0E1 solid;") Vista de Diseño LinearLayout
+
+            figure.mt-3.col-md-4.m-auto
+              img.image_floating(src="@/assets/curso/tema2/40.png")
+
 
         ModalA(:abrir-modal.sync="modal2")
           .row(style="text-align:left")
@@ -211,16 +225,22 @@
 
     p.mt-4(data-aos="fade-up") #[strong Existen 3 propiedades que son indispensables en la creación de los controles nombrados anteriormente y son:]
 
-    .row.mt-5.m-auto.col-md-8
-      .col-md-6.mb-3
+    .row.mt-5
+      .col-md-4.mb-3
         .p-5.caja_flotante.caja_escalada_hover(style="background-color:#FFCA28;height:100%;")
           h4(data-aos="fade-up") Android: layout_width
           p.mt-4(data-aos="fade-up") Esta propiedad es común a todas las vistas y es la que permite establecer cuál será el ancho usado. Este valor puede ser fijado referente al contenido que se va a mostrar o referente a la vista que lo contiene
 
-      .col-md-6.mb-3
+      .col-md-4.mb-3
         .p-5.caja_flotante_azul.caja_escalada_hover(style="background-color:#4DD0E1;height:100%;")
           h4(data-aos="fade-up") Android: layout_height
           p.mt-4(data-aos="fade-up") Esta propiedad es común a todas las vistas y es la que permite establecer cuál será el alto usado. Este valor puede ser fijado referente al contenido que se va a mostrar o referente a la vista que lo contiene.
+
+      .col-md-4.mb-3
+        .p-5.caja_flotante.caja_escalada_hover(style="background-color:#FFCA28;height:100%;")
+          h4(data-aos="fade-up") Android: id
+          p.mt-4.mb-0(data-aos="fade-up") Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente:
+          p(data-aos="fade-up") #[strong Android:id=“@+id/myText”] #[br] El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
 
     p.mt-5(data-aos="fade-up") #[strong Los valores que pueden tomar las propiedades de Android: layout_width, y Android: layout_height los cuales aplican para todos los controles son:]
 
@@ -239,12 +259,6 @@
 
           p.mt-3(data-aos="fade-up") #[strong android: layout_width= “50dp”]
           p(data-aos="fade-up") #[strong android: layout_height=”200dp”]
-
-          p.mt-3(data-aos="fade-up") Android: id: Define el identificador asociado a la vista para ser referenciado por código Java. la forma de crear un identificador es la siguiente
-
-          p.mt-3(data-aos="fade-up") #[strong Android:id="@+id/myText"]
-
-          p.mt-4(data-aos="fade-up") El símbolo @+id/ quiere decir que se está generando un nuevo identificador, esto provocará que la clase R del paquete gen del proyecto cree una referencia de este objeto para que luego pueda ser manipulado por código.
 
     p.mt-5(data-aos="fade-up") Estas tres propiedades básicas son las principales en los componentes que se describen a continuación.
 
@@ -331,7 +345,7 @@
               p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") Archivo XML String
 
               figure.mt-3
-                img(src="@/assets/curso/tema2/21.svg" data-aos="fade-up")
+                img(src="@/assets/curso/tema2/41.png" data-aos="fade-up")
 
               p.mt-3 Ya luego se referencia el contenido por medio de este archivo XML de la siguiente forma: #[strong android:text="@string/boton2"]
 
@@ -549,7 +563,7 @@
     p.mt-4(data-aos="fade-up") Los diferentes controles de los cuales dispone Android para seleccionar opciones dentro de una lista de posibilidades se llaman Spinner (para listas desplegables) y ListView (para listas fijas)
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong Spinner:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles, a seleccionar su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
+      p(data-aos="fade-up") #[strong Spinner:] este permite seleccionar un valor en un conjunto, al presionar clic sobre ella muestra una especie de lista emergente al usuario con todas las opciones disponibles a seleccionar, su propiedad más importante es android: entries = “@array/lista” que permite fijar el contenido de datos que se quiere mostrar en la lista.
 
       p.mt-4(data-aos="fade-up") #[strong Para añadir una lista de este tipo se deben seguir los pasos que se nombran a continuación:]
 

@@ -114,7 +114,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '6.2',
-            titulo: 'Bases de datos en tiempo Real',
+            titulo: 'Bases de datos en tiempo real',
             hash: 't_6_2',
           },
         ],
