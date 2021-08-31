@@ -190,27 +190,33 @@ export default {
     },
     {
       termino: 'Scrolling',
+      termHTML: '<em>Scrolling</em>',
       significado: 'Acción de desplazarse internamente.',
     },
     {
       termino: 'SDK',
+      termHTML: '<em>SDK</em>',
       significado: 'Kit de desarrollo de <em>software</em>.',
     },
     {
       termino: 'String',
+      termHTML: '<em>String</em>',
       significado: 'Recurso XML que ofrece una sola <em>string</em>.',
     },
     {
       termino: 'View',
-      significado: '<em>View</em> es la clase base de los widgets.',
+      termHTML: '<em>View</em>',
+      significado: 'es la clase base de los widgets.',
     },
     {
       termino: 'Wearable',
+      termHTML: '<em>Wearable</em>',
       significado:
         'Dispositivo conectado que se puede llevar puesto y que se conecta al teléfono móvil.',
     },
     {
       termino: 'XML',
+      termHTML: '<em>XML</em>',
       significado: 'Lenguaje de marcado extensible.',
     },
   ],

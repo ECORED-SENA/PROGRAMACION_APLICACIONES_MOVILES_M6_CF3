@@ -23,13 +23,12 @@
 
     p.mt-4(data-aos="fade-up") #[strong  Para realizar el ejemplo del evento listener de un Button se debe seguir algunos pasos, los cuales encontrará en la siguiente presentación interactiva:]
 
-    div.mt-5.indicador__container(active="true")
+    div.mt-5(active="true")
       b-card(no-body='')
         b-tabs(pills='' card='' vertical='')
           b-tab(disabled="true")
             template(#title)
               h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") Ejemplo del evento listener #[br] de un Button
-              .indicador--click
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")
@@ -105,7 +104,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos
               p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre view vista, para esto te invitamos a visitar la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=-z8zTGTo7vA" target="_blank")

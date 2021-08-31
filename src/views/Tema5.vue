@@ -54,7 +54,20 @@
 
     p.mt-5(data-aos="fade-up") Estos métodos tienen una particularidad esencial para nuestros intereses. El método doInBackground () se ejecuta en un hilo secundario (por tanto, no se puede interactuar con la interfaz), pero sin embargo todos los demás se ejecutan en el hilo principal, lo que quiere decir que dentro de ellos se pueden hacer referencia directa a los controles de usuario para actualizar la interfaz.
 
-    p.mt-4(data-aos="fade-up") #[strong El ejemplo de las tareas asíncronas se puede ver en los anexos “Ejemplo Tareas Asíncronas”]
+    br
+    .tarjeta.text-white.p-3.mt-5.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
+      .row.justify-content-around.align-items-center
+        .col-4.col-sm-2.col-lg-2
+          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema1/3.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3(data-aos="fade-up" style="color: #12263F !important;") Tareas asincronas
+              p.mt-3(style="color: #12263F !important;") El ejemplo de las tareas asíncronas se puede ver en los anexos “Ejemplo Tareas Asíncronas”
+            .col-sm-auto
+              a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('downloads/Ejemplo_Tareas_Asincronas.pdf')" target="_blank")
+                span(style="color: #12263F !important;") Descargar
+                i.fas.fa-file-download(style="color: #12263F !important;")
 
 
 

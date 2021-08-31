@@ -26,7 +26,7 @@
     p.mt-5(data-aos="fade-up") Los proyectos de Android Studio tienen unos componentes principales que se explican en el siguiente video, los cuales se distribuyen entre:
 
     ul.mt-4(style="padding:revert;list-style:disc")
-      li(data-aos="fade-up") Modulos y
+      li(data-aos="fade-up") Modulos
       li(data-aos="fade-up") Archivos de proyecto
 
     figure.mt-5
@@ -77,7 +77,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos 
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos 
               p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre manifest, para esto visite la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/guide/components/fundamentals?hl=es-419#Components" target="_blank")
@@ -174,7 +174,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos 
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos 
               p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre gradle, para esto visite la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/studio/releases/gradle-plugin?hl=es#updating-gradle" target="_blank")

@@ -27,13 +27,12 @@
 
     p.mt-4(data-aos="fade-up") #[strong A continuación, se presenta un ejemplo de cómo reproducir un archivo de audio que está disponible como recurso local (ubicado en el directorio res/raw/ de tu app)]
 
-    div.mt-5.indicador__container(active="true")
+    div.mt-5(active="true")
       b-card(no-body='')
         b-tabs(pills='' card='' vertical='')
           b-tab(disabled="true")
             template(#title)
               h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") Reproduccción de un archivo de audio
-              .indicador--click
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")

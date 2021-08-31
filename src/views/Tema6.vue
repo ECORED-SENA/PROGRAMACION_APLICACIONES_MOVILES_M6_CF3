@@ -29,7 +29,7 @@
 
       p.mt-3(data-aos="fade-up") Para la administración de una base de datos SQLitese utiliza la Clase SQLiteDatabase:
 
-      p.mt-3(data-aos="fade-up") SQLiteDatabase: tiene métodos para crear, eliminar, ejecutar comandos SQL y realizar otras tareas comunes de administración de bases de datos
+      p.mt-3(data-aos="fade-up") SQLiteDatabase: tiene métodos para crear, eliminar, ejecutar comandos SQL y realizar otras tareas comunes de administración de bases de datos.
 
     p.mt-5(data-aos="fade-up") #[strong Los métodos más utilizados son:]
 
@@ -149,20 +149,15 @@
 
       ul.lista-ul.mt-4
         li(data-aos="fade-up") 
-          i.fas.fa-check
-          |  No requiere la instalación de un servidor ni requiere instalación de #[em software] ya que la base de datos está alojada en la nube.
+          p #[i.fas.fa-check] No requiere la instalación de un servidor ni requiere instalación de #[em software] ya que la base de datos está alojada en la nube.
         li(data-aos="fade-up") 
-          i.fas.fa-check
-          |   El formato de almacenamiento de los datos es en formato #[em JSON], con base de datos no relacional.
+          p #[i.fas.fa-check] El formato de almacenamiento de los datos es en formato #[em JSON], con base de datos no relacional.
         li(data-aos="fade-up") 
-          i.fas.fa-check
-          |  La actualización de los datos se hace en milisegundos debido a que la sincronización es en tiempo real. 
+          p #[i.fas.fa-check] La actualización de los datos se hace en milisegundos debido a que la sincronización es en tiempo real. 
         li(data-aos="fade-up") 
-          i.fas.fa-check
-          |  Permite apps multiplataforma iOS, Android y #[em Web] (#[em JavaScript]). 
+          p #[i.fas.fa-check] Permite apps multiplataforma iOS, Android y #[em Web] (#[em JavaScript]). 
         li(data-aos="fade-up") 
-          i.fas.fa-check
-          |  Aun cuando el dispositivo se encuentre sin Internet la aplicación sigue funcionando gracias a la caché.
+          p #[i.fas.fa-check] Aun cuando el dispositivo se encuentre sin Internet la aplicación sigue funcionando gracias a la caché.
 
 
     p.mt-5(data-aos="fade-up") #[strong Para crear un proyecto con Firebase se deberán tener lo siguiente:]
@@ -179,13 +174,12 @@
 
     p.mt-5(data-aos="fade-up") #[strong Para la configuración de Firebase en el proyecto de Android Studio se enumera los pasos siguientes:]
 
-    div.mt-5.indicador__container(active="true")
+    div.mt-5(active="true")
       b-card(no-body='')
         b-tabs(pills='' card='' vertical='')
           b-tab(disabled="true")
             template(#title)
               h3.text-center.mb-0.pb-4.pt-4(style="color:#1565C0;") Configuración de Firebase en el proyecto #[br] de Android Studio
-              .indicador--click
           b-tab
             template(#title)
               div.pt-3(style="border-top:1px #B2E6FF solid;")

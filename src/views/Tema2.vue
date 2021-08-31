@@ -46,12 +46,6 @@
     .titulo-segundo.mt-5
       h2#t_2_1 2.1 Layouts
 
-    p(data-aos="fade-up") En Android Studio los componentes visuales (Button, Editext, Textview, etc.) se organizan mediante contenedores llamados Layout.
-
-    p.mt-4(data-aos="fade-up") Los layouts son elementos no visuales que permiten controlar la organización, posición y dimensiones de los view que se crean dentro de él, como muchos otros componentes contenedores, son capaces de contener a otros controles, es decir, que se puede tener un contenedor dentro de otro contenedor.
-
-    p.mt-4(data-aos="fade-up") #[strong Existen diferentes tipos de Layout, a continuación, se explica cada una de las más comunes.]
-
     .mt-5.text-center.caja___1.p-5.row(style="min-height:700px;max-height:100%;height:100%;place-content: flex-end;")
       div(v-if="caja1" data-aos="fade-in")
         .p-4.col-md-12.m-auto(style="background-color:rgba(0,0,0,.7);z-index:1;position:relative;" data-aos="fade-in")
@@ -187,7 +181,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos 
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos 
               p.mt-3(style="color: #12263F !important;") Cómo crear una IU responsiva con ConstraintLayout
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/training/constraint-layout?hl=es-419" target="_blank")
@@ -201,7 +195,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos 
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos 
               p.mt-3(style="color: #12263F !important;") Interfaz de usuario en Android: Layouts
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.sgoliver.net/blog/interfaz-de-usuario-en-android-layouts" target="_blank")
@@ -301,7 +295,7 @@
 
     h3.mt-3(data-aos="fade-up")  Texto e Imágenes
 
-    p.mt-4(data-aos="fade-up") Unos de los controles más utilizados son los referentes a los textos e imágenes, ya que son con los que más interactúa el usuario. A continuación, se realizará una descripción de tres de los componentes básicos más imprescindibles para el desarrollo de nuestras aplicaciones: los textos o etiquetas (TextView) las imágenes (ImageView) y los cuadros de texto (EditText)
+    p.mt-4(data-aos="fade-up") Unos de los controles más utilizados son los referentes a los textos e imágenes, ya que son con los que más interactúa el usuario. A continuación, se realizará una descripción de tres de los componentes básicos más imprescindibles para el desarrollo de nuestras aplicaciones: los textos o etiquetas (TextView) las imágenes (ImageView) y los cuadros de texto (EditText).
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
       p(data-aos="fade-up") #[strong.h5 TextView:] es un control utilizado para desplegar contenido textual generalmente estático, tiene la propiedad de acoplarse al control que lo contenga y no captura el foco en ningún momento por lo que generalmente no se programa ningún evento sobre él, sus propiedades básicas son las siguientes:
@@ -379,9 +373,9 @@
           img(src="@/assets/curso/tema2/23.svg" data-aos="fade-up")
 
       .col-md-6.mb-3
-        p(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 18] Vista Diseño TextView
-
-        p.mt-4(data-aos="fade-up") El TextView quedaría como se ve en la figura 18
+        p(data-aos="fade-up") El TextView quedaría como se ve en la figura 18
+        
+        p.mt-4(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 18] Vista Diseño TextView
 
         figure.col-md-8.mt-3
           img(src="@/assets/curso/tema2/24.svg" data-aos="fade-up")
@@ -427,7 +421,7 @@
           img(src="@/assets/curso/tema2/26.svg" data-aos="fade-up")
 
     .mt-5.p-5.caja_flotante_rosada(style="background-color:#FFF1C7")
-      p(data-aos="fade-up") #[strong EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto.Una de sus propiedades más funcionales es la de inputType que define el tipo de entrada que va a tener el cuadro de texto, el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (textEmailAdress) edad (#[em number]) apellido (#[em text]) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
+      p(data-aos="fade-up") #[strong EditText:] es un elemento de la interfaz que permite al usuario ingresar y editar el texto. Una de sus propiedades más funcionales es la de inputType que define el tipo de entrada que va a tener el cuadro de texto, el valor se aplica dependiendo de lo que se quiere ingresar: por ejemplo, un correo electrónico (textEmailAdress) edad (#[em number]) apellido (#[em text]) entre otras, la elección del tipo de entrada configura el tipo de teclado que se muestra.
 
     p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Tabla 4] Propiedades básicas EditText
 
