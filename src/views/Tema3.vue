@@ -100,7 +100,7 @@
     .tarjeta.text-white.p-3.mt-5.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.p-4.imagen_flotante_animada(src="@/assets/curso/tema1/3.svg")
+          img.imagen_flotante_animada(style="max-width:100px;" src="@/assets/curso/tema1/3.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
