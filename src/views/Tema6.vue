@@ -77,7 +77,7 @@
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('downloads/Ejemplo Bases de DatosSqlite.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
     br
     br
@@ -259,12 +259,12 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos
               p.mt-3(style="color: #12263F !important;") A continuación, puede consultar un ejemplo completo sobre el uso de la base de datos de Firebase en Android Studio, denominado Ejemplo Firebase que se encuentra en los anexos del material complementario.
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" :href="obtenerLink('downloads/Ejemplo Firebase.pdf')" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
 
 

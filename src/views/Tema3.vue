@@ -105,11 +105,11 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos
-              p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre view vista, para esto te invitamos a visitar la página:
+              p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre view vista, para esto le invitamos a visitar la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=-z8zTGTo7vA" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
 
 

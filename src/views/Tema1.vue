@@ -82,7 +82,7 @@
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/guide/components/fundamentals?hl=es-419#Components" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
     br
     br
@@ -170,7 +170,7 @@
     .tarjeta.text-white.p-3.mt-5.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
-          img.imagen_flotante_animada(src="@/assets/curso/tema1/3.svg")
+          img.imagen_flotante_animada(src="@/assets/curso/tema1/3.svg" style="max-width:100px;")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -179,7 +179,7 @@
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/studio/releases/gradle-plugin?hl=es#updating-gradle" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
     .tarjeta.text-white.p-3.mt-4.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
       .row.justify-content-around.align-items-center
@@ -193,7 +193,7 @@
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://developer.android.com/training/basics/firstapp/running-app?hl=es-419" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
 
 

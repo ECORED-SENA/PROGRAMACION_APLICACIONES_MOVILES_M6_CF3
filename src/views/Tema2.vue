@@ -39,7 +39,7 @@
         p.mt-5(data-aos="fade-up" style="padding-left:13px;border-left:4px #4DD0E1 solid;") #[strong Figura 13] Vista diseño editor
 
         figure.mt-4
-          img.image_floating(src="@/assets/curso/tema2/4.svg" data-aos="fade-up")
+          img.image_floating(src="@/assets/curso/tema2/4.png" data-aos="fade-up")
 
     br
     br

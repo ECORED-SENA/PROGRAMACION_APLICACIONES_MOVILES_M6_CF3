@@ -51,6 +51,8 @@
                 i.fas.fa-caret-right
                 |  2. Copiar un sonido en la carpeta raw de #[br] extensión mp3.
             b-card-text
+              figure
+                img(src="@/assets/curso/tema7/9.png" style="max-width:500px;")
               .p-4.mt-2.caja_flotante(data-aos="fade-up" style="background-color:#F6F6F6;")
                 p Copiar un sonido en la carpeta raw de extensión mp3.
 

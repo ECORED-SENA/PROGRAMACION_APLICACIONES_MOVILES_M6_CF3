@@ -50,12 +50,12 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
-              p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre Intent Explícito, para esto te invitamos a visitar la página:
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos
+              p.mt-3(style="color: #12263F !important;") A continuación, puede ampliar información más detallada sobre Intent Explícito, para esto le invitamos a visitar la página:
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=LEVXzsXhO0A" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
     .tarjeta.text-white.p-3.mt-4.col-md-10.m-auto(data-aos="fade-up" style="background: linear-gradient(#ffca28, #bd8f00)")
       .row.justify-content-around.align-items-center
@@ -64,12 +64,12 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3(data-aos="fade-up" style="color: #12263F !important;") Amplia tus conocimientos
-              p.mt-3(style="color: #12263F !important;") Y para ampliar la información sobre Intent implícito, puedes visitar la página
+              h3(data-aos="fade-up" style="color: #12263F !important;") Amplíe sus conocimientos
+              p.mt-3(style="color: #12263F !important;") Y para ampliar la información sobre Intent implícito, puede visitar la página
             .col-sm-auto
               a.boton.boton--b.color-primario(style="background-color:#4DD0E1" href="https://www.youtube.com/watch?v=tU2ZZng7FnI" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
-                i.fas.fa-file-download(style="color: #12263F !important;")
+                i.fas.fa-globe(style="color: #12263F !important;")
 
 
 
